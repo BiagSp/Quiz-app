@@ -1,0 +1,47 @@
+
+* {
+    margin: 0; 
+}
+
+textarea {
+    border-radius: 5px;
+    background: black;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.red {
+    color: red;
+    text-decoration: line-through;
+}
+
+.green {
+    color: green;
+}
+
+label {
+    margin: 5px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: max-content;
+    background: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+nav h1, button {
+    margin: 5px;
+}
+
